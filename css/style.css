@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+* {
+    font-family: 'Rubik', sans-serif;
+}
+
+:root {
+    /* primary color */
+    --soft-blue: hsl(231, 69%, 60%);
+    --soft-red: hsl(0, 94%, 66%);
+
+    /* neutral color */
+    --grayish-blue: hsl(229, 8%, 60%);
+    --dark-blue: hsl(229, 31%, 21%);
+}
+
+.nev-text-color {
+    color: var(--dark-blue);
+}
+
+.nev-text-color:hover {
+    color: var(--soft-red);
+}
